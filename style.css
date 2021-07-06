@@ -1,28 +1,33 @@
-body{font-family: 'Courgette', cursive;
-color: white;}
-section{
+body{font-family: 'Courgette', cursive;}
+.backgroundone{
     display:flex;
     background-image: url(pic/bc-one.jpg);
-    background-size: 100%;
-    background-position: center;
+    background-size: 150%;
     background-repeat: no-repeat;
-   
-    padding-bottom: 100px;
 }
-h1{font-size: 50px;}
+h1{font-size: 40px;
+text-shadow: 3px 2px 5px black;}
 #fcolor{color: yellow;}
-.parallel {width: 50%;
+.parallel {size: 40px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    width: 50%;
 padding: 5%;}
 .parallel img{width: 100%;
 }
 .findbutton{
     text-decoration: none;
-    background-image: linear-gradient(orange, red);
-    padding: 15px 40px;
+    background-image: linear-gradient(cyan, blue);
+    padding: 15px 55px;
     font-weight: 700;
     color: white;
     font-size: 13px;
-    border-radius: 40px;
+    border-radius: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    box-shadow: 2px 2px 8px white;
+    box-shadow: 1px 1px 8px 1px rgb(255, 255, 255);
 }
+.backgroundtwo{text-align:justify;
+    display:flex; background-image: url(pic/bc-two.jpg);
+background-size: 100%;
+background-repeat: no-repeat;}
+#center{text-align: center;}
